@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const cart = [];
 
     const products = [
-        { id: 1, name: 'Product 1', price: 10.00, image: 'product1.jpg', description: 'Description for Product 1' },
-        { id: 2, name: 'Product 2', price: 20.00, image: 'product2.jpg', description: 'Description for Product 2' },
-        { id: 3, name: 'Product 3', price: 30.00, image: 'product3.jpg', description: 'Description for Product 3' },
+        { id: 1, name: 'Product 1', price: 10.00, image: 'product1.jpg', description: 'Black Hoodie' },
+        { id: 2, name: 'Product 2', price: 20.00, image: 'product2.jpg', description: 'White t-shirt' },
+        { id: 3, name: 'Product 3', price: 30.00, image: 'product3.jpg', description: 'jordan 4' },
     ];
 
     products.forEach(product => {
