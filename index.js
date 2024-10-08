@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 1, name: 'Product 1', price: 10.00, image: 'product1.jpg', description: 'Black Hoodie' },
         { id: 2, name: 'Product 2', price: 20.00, image: 'product2.jpg', description: 'White t-shirt' },
         { id: 3, name: 'Product 3', price: 30.00, image: 'product3.jpg', description: 'jordan 4' },
+        { id: 4, name: 'Product 4', price: 460.00, image: 'product4.jpg',description: 'chrome heart'},
     ];
 
     products.forEach(product => {
