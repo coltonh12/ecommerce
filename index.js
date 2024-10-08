@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <h2>${product.name}</h2>
             <p>Price: $${product.price.toFixed(2)}</p>
             <button onclick="addToCart(${product.id})">Add to Cart</button>
-            <button onclick="showDetails(${product.id})">View Details</button>
+            <button onclick="showDetails(${product.id})">View information</button>
         `;
         productsSection.appendChild(productDiv);
     });
